@@ -14,7 +14,12 @@ while opcion != "2":
     opcion = input("Su opción >>> ")
     
     if opcion == "1":
-        cargarUsuario()
+        
+        if cargarUsuario():
+            print("Bienvenid@!!!")
+        else:
+            print('Ingreso inválido!!!')
+            
     elif opcion == "2":
         print("Hasta luego!")
     else:

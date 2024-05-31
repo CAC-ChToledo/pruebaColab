@@ -9,8 +9,8 @@ usuario_prueba = {
 }
 
 def validarUsuario(nombre, clave, usuarios):
-    
-    if nombre == usuarios.values()[0] and clave == usuarios.values()[1]:
+    usuarios = list(usuarios.values())
+    if nombre == usuarios[0] and clave == usuarios[1]:
         return True
     
     return False
