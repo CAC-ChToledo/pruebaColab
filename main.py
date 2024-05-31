@@ -1,7 +1,17 @@
 import os
 
+usuario_prueba = {
+    "nombre": "Christian",
+    "clave": "1234abcd"
+}
+
 def validarUsuario(nombre, clave):
     pass
+
+def cargarUsuario():
+    nombre = input("Ingrese su nombre: ")
+    clave = input("Ingrese su clave: ")
+    
 
 opcion = ''
 menu = """
